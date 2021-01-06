@@ -1,0 +1,71 @@
+<properties>
+    <property name="createIndex">
+        <![CDATA[
+        {
+            "settings": {
+                "number_of_shards": 5,
+                "number_of_replicas": 0
+            },
+            "mappings": {
+                "properties": {
+                    "code": {
+                        "type": "keyword"
+                    },
+                    "name": {
+                        "type": "keyword"
+                    },
+                    "type": {
+                        "type": "keyword"
+                    },
+                    "day": {
+                        "type": "keyword"
+                    },
+                    "day_stamp": {
+                        "type": "long"
+                    },
+                    "t_close": {
+                        "type": "double"
+                    },
+                    "high": {
+                        "type": "double"
+                    },
+                    "low": {
+                        "type": "double"
+                    },
+                    "t_open": {
+                        "type": "double"
+                    },
+                    "l_close": {
+                        "type": "double"
+                    },
+                    "chg": {
+                        "type": "double"
+                    },
+                    "pchg": {
+                        "type": "double"
+                    },
+                    "turn_over": {
+                        "type": "double"
+                    },
+                    "vo_turn_over": {
+                        "type": "long"
+                    },
+                    "va_turn_over": {
+                        "type": "long"
+                    },
+                    "t_cap": {
+                        "type": "long"
+                    },
+                    "m_cap": {
+                        "type": "long"
+                    },
+                    "create_time": {
+                        "type": "date",
+                        "format": "yyyy-MM-dd HH:mm:ss.SSS||epoch_millis"
+                    }
+                }
+            }
+        }
+        ]]>
+    </property>
+</properties>

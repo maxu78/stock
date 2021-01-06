@@ -1,0 +1,19 @@
+<properties>
+    <property name="queryByCode">
+        <![CDATA[
+            {
+                "query": {
+                    "bool": {
+                        "must": [
+                            {
+                                "match": {
+                                    "code": #[code]
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]]>
+    </property>
+</properties>
